@@ -16,7 +16,7 @@
     // "outFile": "./",                       /* Concatenate and emit output to single file. */
     "outDir": "dist",                        /* Redirect output structure to the directory. */
     "types": ["node"],
-    "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+    "rootDir": "./src",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     "strict": false /* Enable all strict type-checking options. */,
     "noImplicitAny": false /* Raise error on expressions and declarations with an implied 'any' type. */,
     "allowSyntheticDefaultImports": true,
