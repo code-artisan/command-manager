@@ -2,6 +2,8 @@ import { Option, program } from 'commander';
 import { pick, isString, forEach, isFunction } from 'lodash';
 import { Command, Config } from './interface';
 
+export { Command };
+
 class CommandManager {
   public program = program;
 
