@@ -103,7 +103,7 @@ class CommandManager {
       command.addOption(this.createCommandOption(item));
     });
 
-    return command.action((...args) => params.action(...args));
+    return command.action((...args) => params.action(...args, params.options));
   }
 
   registryCommands() {
