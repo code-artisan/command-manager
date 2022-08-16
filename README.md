@@ -1,2 +1,3 @@
 # command-manager
-Command manager
+
+An other way to use `commander` package.
